@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --font:       "Poppins", sans-serif;
+    --corDefundo:  #0A6847;
+    --corPrimaria: #F6E9B2;
+}
+body{
+    font-family: var(--font);
+    background-color: var(--corDefundo);
+    color: var(--corPrimaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+.box{
+    border: 1px solid var(--corPrimaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 4px;
+    margin: 20px;
+}
+
+.acertou{
+    font-size: 6em;
+}
+
+.jogar{
+    background-color: var(--corPrimaria);
+    padding: 8px 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 white;
+}
+
+.jogar:hover{
+    background-color: var(--corDefundo);
+    color: var(--corPrimaria);
+    border: solid var(--corPrimaria);
+    box-shadow: none;
+    transition: ease-in-out .2s;
+}
