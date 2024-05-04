@@ -12,6 +12,7 @@ function analisaNumero(valor){
 
 }
 
+
 function validaNumero(valorRecebido) {
     
     return !isNaN(parseInt(valorRecebido))
